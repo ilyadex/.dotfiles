@@ -1,0 +1,86 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/Adronix/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#1793d0",
+      "2": "#1791cd",
+      "3": "#128cc8",
+      "4": "#1487c0",
+      "5": "#1582b7",
+      "6": "#A6E3A1",
+      "7": "#94E2D5",
+      "8": "#89DCEB",
+      "9": "#74C7EC"
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#dcdfe4",
+        "at": "#CDD6F4",
+        "host": "#1793d0"
+      }
+    },
+    "break",
+	{
+		"type": "custom",
+		"format": "┌──── 󰣇 System"
+	},
+    {
+      "type": "os",
+      "key": "├",
+      "keyColor": "#1793d0",
+	  "format": "Arch Linux x86_64 / Windows 11 Pro (24H2) x86_64"
+    },
+    {
+      "type": "cpu",
+      "key": "├",
+      "keyColor": "#1793d0"
+    },
+    {
+	    "type": "terminal",
+	    "key": "├",
+	    "keyColor": "#1793d0"
+    },
+    {
+      "type": "board",
+      "key": "├",
+      "keyColor": "#1793d0"
+    },
+    {
+      "type": "memory",
+      "key": "├",
+      "keyColor": "#1793d0",
+      "format": "{used} / {total} ({percentage})"
+    },
+	{
+		"type": "custom",
+		"format": "├────  Disk's"
+	},
+    {
+      "type": "disk",
+      "key": "├",
+      "keyColor": "#1793d0"
+    },
+	{
+		"type": "custom",
+		"format": "└────  End"
+	},
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
